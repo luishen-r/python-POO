@@ -16,4 +16,4 @@ class Avaliacao:
             raise ValueError("A nota deve estar entre 0 e 10")
     
     def __str__(self):
-        return f'O aluno {self.nome}, na disciplina de {self.disciplina}, está com nota {self.get_nota()}'
+        return f'O aluno {self.nome}, na disciplina de {self.disciplina}, está com nota {self.nota}'
